@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Unit Converter by Greeshma</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <h1>Unit Converter by Greeshma</h1>
+    <form>
+      <label for="inputValue">Enter a value:</label>
+      <input type="text" id="inputValue" placeholder="Enter value..." />
+      <label for="fromUnit">From:</label>
+      <select id="fromUnit">
+        <option value="meters">Meters</option>
+        <option value="feet">Feet</option>
+        <option value="inches">Inches</option>
+        <option value="centimeters">Centimeters</option>
+      </select>
+      <label for="toUnit">To:</label>
+      <select id="toUnit">
+        <option value="meters">Meters</option>
+        <option value="feet">Feet</option>
+        <option value="inches">Inches</option>
+        <option value="centimeters">Centimeters</option>
+      </select>
+      <button type="button" onclick="convert()">Convert</button>
+      <p id="result"></p>
+    </form>
+    <script src="script.js"></script>
+  </body>
+</html>

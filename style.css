@@ -1,0 +1,63 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: url(gffhffgh.jpg);
+}
+
+h1 {
+  text-align: center;
+}
+/* Define the animation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Apply the animation to the heading */
+h1 {
+  animation-name: fade-in;
+  animation-duration: 1s;
+}
+
+form {
+  background-color: #27263c;
+  padding: 20px;
+  margin: 0 auto;
+  height: 250px;
+  width: 300px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  color: #f3f3f3;
+}
+
+input[type="text"],
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #f2f2f2;
+  color: #27263d;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d6390d;
+}
+#result {
+  color: #fff;
+}
